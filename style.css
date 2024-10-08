@@ -1,0 +1,71 @@
+/* General styles */
+body {
+    font-family: 'Courier New', monospace;
+    background-color: #0d1117;
+    color: #c9d1d9;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Sections */
+.section {
+    padding: 40px 20px;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Headers */
+h1, h2 {
+    color: #58a6ff;
+}
+
+/* Links */
+a {
+    color: #79c0ff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #1f6feb;
+}
+
+/* Badges */
+.badges img {
+    width: 100px;
+    height: auto;
+    margin: 10px;
+}
+
+/* Projects List */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+/* Contact Links */
+ul li a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+
+/* responsive */
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+
+    .badges img {
+        width: 80px;
+    }
+}
